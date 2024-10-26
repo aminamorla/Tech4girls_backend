@@ -1,0 +1,11 @@
+Open terminal
+Type the command, python3 and press enter
+Verify the interpreter is running
+Enter the following line in the terminal session:
+>>> print("Hello Python interpreter!")
+
+Example of using the interpreter
+a = 5
+b = 3 
+sum = a + b 
+print(sum)
