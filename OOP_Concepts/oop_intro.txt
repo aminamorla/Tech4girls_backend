@@ -1,0 +1,28 @@
+Object Oriented Programming (OOP) is one of the most effective approaches to writing software. OOP organizes code into structures
+that combine both data (attributes) and functions (methods) that manipulate the data. 
+
+THE FOUR MAIN PRINCIPLES OF OOP.
+1. ENCAPSULATION: This principle helps to hide the complexity of the inner workings of an object
+from the programs and the programmers that make use of it. it's often refered to as information hiding because the data 
+contained within an object and the functions that manipulate the data are bound together and therefore, 
+safe from outside interference.
+
+2.ABSTRACTION: abstraction means to simplify reality. It is the implementation of details a d exposing 
+only the necessary parts of an object, allowing users to interact with a simplified version.
+
+3. INHERITANCE: Allowing one class to derive the attributes and methods of another class. It result in a hierarchy of 
+classes and promote code reusability.
+
+4. POLYMORPHISM: A class can implement an inherited method in its own way. Enabling objects of different classes to be
+treated as objects of a common superclass, using methods with the same name but different implementation.
+
+BENEFITS OF OOP TO SOFTWARE DEVELOPMENT
+1. Modularity: OOP allows for the creation of modular code, making it easier to maintain, update, and debug.
+Each object in OOP represents a specific entity or functionality, making it easier to manage and reuse code.
+Example: in a banking application, you can create separate objects for customers, accounts, and transactions.
+This modularity makes it easier to add new features or update existingones without affecting the rest ot the code.
+2. OOP allows for data hiding through encapsulation, which means that the internal implementation details of an object 
+are hidden from the outside world. This protects the integrity of the data and prevents direct access to sensitive information.
+Example: in a social media application, the user object may have private properties such as password or 
+email address that are only accessible through predefined methods like setPassword() or getEmail().
+this encapsulation ensures that the data is securely managed.
