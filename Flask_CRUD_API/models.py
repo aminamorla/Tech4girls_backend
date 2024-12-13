@@ -6,7 +6,16 @@ from sqlalchemy.orm import sessionmaker
 Base = declarative_base()
 
 # Define the Backend class
-class Backend(Base):
+#class Backend(Base):
+# models.py
+
+class MyLaptops:
+    def __init__(self, name, brand, price):
+        self.name = name
+        self.brand = brand
+        self.price = price
+        
+
     __tablename__ = 'backend_class'  # Corrected the typo here
 
     # Columns for the table
